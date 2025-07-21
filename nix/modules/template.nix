@@ -19,12 +19,12 @@
         {
           name = "author";
           description = "Author name";
-          placeholder = "Sridhar Ratnakumar";
+          placeholder = "Alex Colson";
         }
         {
           name = "author-email";
           description = "Author email";
-          placeholder = "srid@srid.ca";
+          placeholder = "alex.colson@gmail.com";
         }
         {
           name = "vscode";
@@ -60,9 +60,7 @@
               ".vscode" = true;
               "nix/modules/template.nix" = false;
             };
-            packages.default = {
-              "bin/qux" = true;
-            };
+            packages.default = { "bin/qux" = true; };
           };
         };
       };

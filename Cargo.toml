@@ -1,5 +1,5 @@
 [package]
-authors = ["Sridhar Ratnakumar <srid@srid.ca>"]
+authors = ["Alex Colson <alex.colson@gmail.com>"]
 edition = "2021"
 # If you change the name here, you must also do it in flake.nix (and run `cargo generate-lockfile` afterwards)
 name = "rust-nix-template"
